@@ -425,6 +425,7 @@ code, pre {
     }
 }
 
+/* For my phone */
 @media (max-width: 425px) {
     .navbar {
         height: 125px;
@@ -476,12 +477,21 @@ code, pre {
     }
 
     .features-head,
-    .features-sub-head,
     .docs-head {
         text-align: center;
     }
 
+    .features-head img, 
+    .docs-head img {
+        width: 150px;
+    }
+
+    .features-sub-head img {
+        width: 240px;
+    }
+
     .features-head img,
+    .features-sub-head img,
     .docs-head img {
         justify-self: center;
     }
